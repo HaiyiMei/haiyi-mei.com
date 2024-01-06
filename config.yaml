@@ -181,10 +181,26 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
+        info:
+          enable: false
         content: |-
-          I am working on synthetic data generation for computer vision tasks, related projects can be found in the projects section.
+          I am working on <u>synthetic data</u> generation for computer vision tasks.
 
-          Published papers:
+          I spearheaded the development of [XRFeitoria](https://github.com/openxrlab/xrfeitoria),
+          a rendering toolbox designed to streamline synthetic data generation.
+          This tool simplifies the construction of pipelines 
+          for topics including human mesh recovery, novel view synthesis, etc, 
+          leading to the publishing of several papers within a short timeframe:
+
+          - [(ICCV 2023) SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)
+          - [(ICCV 2023) Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)
+          - [(ICCV 2023) SHERF: Generalizable Human NeRF from a Single Image](https://skhu101.github.io/SHERF/)
+          - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
+          - [(Preprint) HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)
+
+          Besides, I also contributed to other projects, and I participated in the production of demo videos on the pages:
+          - [(NIPS 2023) SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation](https://caizhongang.com/projects/SMPLer-X/)
+          - [(Preprint) Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)
 
   # projects
   projects:
@@ -275,6 +291,22 @@ params:
           - icon: fab fa-github
             url: https://github.com/skhu101/SHERF
 
+      - title: PrimDiffusion
+        content: Generates 3D human by denoising a set of volumetric primitives.
+        url: https://frozenburning.github.io/projects/primdiffusion/
+        image: /images/projects/primdiffusion.gif
+        featured:
+          name: Paper@NeurIPS2023
+          link: https://frozenburning.github.io/projects/primdiffusion/
+        badges:
+          - "Diffusion"
+          - "XRFeitoria"
+        links:
+          - icon: fa-solid fa-house
+            url: https://frozenburning.github.io/projects/primdiffusion/
+          - icon: fab fa-github
+            url: https://github.com/FrozenBurning/PrimDiffusion
+
       - title: HumanLiff
         content: Learns the layer-wise 3D human generative model with a unified diffusion process.
         url: https://skhu101.github.io/HumanLiff/
@@ -291,21 +323,54 @@ params:
           - icon: fab fa-github
             url: https://github.com/skhu101/HumanLiff
 
-      - title: PrimDiffusion
-        content: Generates 3D human by denoising a set of volumetric primitives.
-        url: https://frozenburning.github.io/projects/primdiffusion/
-        image: /images/projects/primdiffusion.gif
-        featured:
-          name: Paper@NeurIPS2023
-          link: https://frozenburning.github.io/projects/primdiffusion/
-        badges:
-          - "Diffusion"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://frozenburning.github.io/projects/primdiffusion/
-          - icon: fab fa-github
-            url: https://github.com/FrozenBurning/PrimDiffusion
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Biomedical/Medical Engineering"
+        school:
+          name: "Shandong University"
+          url: "https://en.sdu.edu.cn/"
+        date: "2019 - 2022"
+        GPA:
+        content: |-
+          I Got 2 Invention grants from China National Intellectual Property Administration.
+
+      - title: "Visiting Research Intern"
+        school:
+          name: "Institute of Automation, Chinese Academy of Sciences"
+          url: "http://www.nlpr.ia.ac.cn/en/"
+        date: "2018 - 2021"
+        GPA:
+        content: |-
+          Starting to work on synthetic data generation for computer vision tasks.
+
+          I Published:
+          - **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
+
+      - title: "Bachelor of Automation"
+        school:
+          name: "Nanjing University of Science and Technology"
+          url: "https://english.njust.edu.cn/"
+        date: "2015 - 2019"
+        GPA:
+        content: |-
+          I Published:
+          - Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
+          
+
+          Extracurricular Activities
+            - Head of the Symphony Orchestra of School, 2016 - 2018
+            - First Place Award, The Prime Golden Bell Music Award of China, 2017
+
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: Contact me if you have any questions or want to collaborate on a project.
+    email: haiyimei@gmail.com
+    btnName: Mail me
 
   footer:
     recentPosts:
@@ -340,4 +405,4 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  customScripts: <script src="/js/targetBlank.js"></script>
+  # customScripts:
