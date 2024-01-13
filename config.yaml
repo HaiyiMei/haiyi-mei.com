@@ -110,6 +110,9 @@ params:
     showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: " " # Brand name for the brand | default is the title variable
     disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -145,7 +148,8 @@ params:
           url: https://linkedin.com/in/haiyimei/
         - icon: fa-brands fa-google-scholar
           url: https://scholar.google.com/citations?user=TOZ9wR4AAAAJ
-
+        - icon: fa-solid fa-envelope
+          url: mailto:haiyimei@gmail.com
 
   # About
   about:
@@ -176,7 +180,7 @@ params:
       - job: "Mid-Level Algorithm Researcher"
         company: "SenseTime"
         companyUrl: "https://www.sensetime.com"
-        date: "June 2021 - present"
+        date: "June 2021 - Present"
         featuredLink:
           enable: false
           name: "View the project"
@@ -186,7 +190,12 @@ params:
         content: |-
           I am working on <u>synthetic data</u> generation for computer vision tasks.
 
-          I spearheaded the development of [XRFeitoria](https://github.com/openxrlab/xrfeitoria),
+          ----
+
+          ##### XRFeitoria
+
+          I spearheaded the development of <a href="https://github.com/openxrlab/xrfeitoria">
+          XRFeitoria <img src="https://img.shields.io/github/stars/openxrlab/xrfeitoria" alt="XRFeitoria"/></a>,
           a rendering toolbox designed to streamline synthetic data generation.
           This tool simplifies the construction of pipelines 
           for topics including human mesh recovery, novel view synthesis, etc, 
@@ -198,9 +207,22 @@ params:
           - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
           - [(Preprint) HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)
 
-          Besides, I also contributed to other projects, and I participated in the production of demo videos on the pages:
-          - [(NIPS 2023) SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation](https://caizhongang.com/projects/SMPLer-X/)
-          - [(Preprint) Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)
+          ##### SynBody
+
+          I held a principal role in designing [<i class="fa-regular fa-file-lines"></i> SynBody](https://synbody.github.io/),
+          a large-scale synthetic dataset with layered human models.
+
+          - Participated in designing SMPL-XL, which enriches SMPL-X in hair, garments, accessories, and textures.
+          - Built a System of synthetic data generation as a Software-as-a-Service (SaaS) platform,
+          including layered human creation, motion retargeting, scene composition, rendering pipeline, and flow control.
+          - Published a paper presented at ICCV 2023 as co-first author.
+
+          ##### Demo videos
+          I'm proficient in crafting advanced technology demonstration videos.
+          - [(ICCV 2023) SynBody](https://synbody.github.io/)
+          - [(Github) XRFeitoria](https://github.com/openxrlab/xrfeitoria#introduction)
+          - [(NIPS 2023) SMPLer-X](https://caizhongang.com/projects/SMPLer-X/)
+          - [(Preprint) Digital Life Project](https://digital-life-project.com/)
 
   # projects
   projects:
@@ -209,12 +231,13 @@ params:
     items:
       - title: XRFeitoria
         content: |-
-          XRFeitoria is a rendering toolbox for generating synthetic data photorealistic with ground-truth annotations.
-
-          - Photorealistic images with GT annotations
-          - Multiple engine backends (UE/Blender)
-          - Assets/camera management
-
+          Rendering toolbox for generating synthetic data.
+          - Control over engine (UE/Blender) through RPC using system python.
+          - Support multiple engine backends, including Unreal Engine and Blender.
+          - Render photorealistic images with ground-truth annotations.
+          - Manage assets/cameras, including import, place, export, and delete.
+          - CLI tools to render images from a mesh file.
+          - Streamline building rendering pipelines across various domains, effectively implemented in over **6 projects**.
         image: /images/projects/XRFeitoria_small.gif
         url: https://github.com/openxrlab/xrfeitoria
         featured:
@@ -336,7 +359,8 @@ params:
         date: "2019 - 2022"
         GPA:
         content: |-
-          I Got 2 Invention grants from China National Intellectual Property Administration.
+          I Published:
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A)
 
       - title: "Visiting Research Intern"
         school:
@@ -348,7 +372,8 @@ params:
           Starting to work on synthetic data generation for computer vision tasks.
 
           I Published:
-          - **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A)
+          - <i class="fa-regular fa-file-lines"></i> **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
 
       - title: "Bachelor of Automation"
         school:
@@ -358,12 +383,13 @@ params:
         GPA:
         content: |-
           I Published:
-          - Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B)
+          - <i class="fa-regular fa-file-lines"></i> Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
           
 
           Extracurricular Activities
-            - Head of the Symphony Orchestra of School, 2016 - 2018
-            - First Place Award, The Prime Golden Bell Music Award of China, 2017
+            - <i class="fa-solid fa-music"></i> Head of the Symphony Orchestra of School, 2016 - 2018
+            - <i class="fa-solid fa-music"></i> First Place Award, National University Piano Competition, Chinese Golden Bell Award for Music, 2017
 
   contact:
     enable: true
