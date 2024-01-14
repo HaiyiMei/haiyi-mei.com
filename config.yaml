@@ -394,7 +394,10 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: Contact me if you have any questions or want to collaborate on a project.
+    content: |-
+      :partying_face: Contact me for any questions or want to collaborate! Always open to new opportunities.
+      
+      <i class="fa-regular fa-envelope"></i> haiyimei [at] gmail.com
     email: haiyimei@gmail.com
     btnName: Mail me
 
@@ -405,6 +408,10 @@ params:
       title: Recent Posts
       enable: false
       disableFeaturedImage: false
+
+    copyright: ""
+    by: "Haiyi"
+    updateDateFormat: "Jan 02, 2006"
 
   # List pages like blogs and posts
   listPages:
@@ -422,7 +429,6 @@ params:
   terms:
     read: "Read"
     toc: "Table Of Contents"
-    copyright: "All rights reserved"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
 
