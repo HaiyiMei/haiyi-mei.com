@@ -218,6 +218,7 @@ params:
           - Published a paper presented at ICCV 2023 as co-first author.
 
           ##### Demo videos
+
           I'm proficient in crafting advanced technology demonstration videos.
           - [(ICCV 2023) SynBody](https://synbody.github.io/)
           - [(Github) XRFeitoria](https://github.com/openxrlab/xrfeitoria#introduction)
@@ -227,11 +228,10 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Open-Source Projects"
     items:
-      - title: XRFeitoria
+      - title: "[XRFeitoria: Rendering Toolbox for Synthetic Data Generation](https://github.com/openxrlab/xrfeitoria)"
         content: |-
-          Rendering toolbox for generating synthetic data.
           - Control over engine (UE/Blender) through RPC using system python.
           - Support multiple engine backends, including Unreal Engine and Blender.
           - Render photorealistic images with ground-truth annotations.
@@ -259,92 +259,264 @@ params:
             url: https://pypi.org/project/xrfeitoria/
             title: PyPI
 
-      - title: SynBody
-        content: |-
-          A large-scale synthetic dataset with massive number of subjects and high-quality annotations.
-          
-          It supports various research topics, including human mesh recovery and novel view synthesis for human (Human NeRF).
+  # publications
+  publications:
+    enable: true
+    index: false
+    url: "https://scholar.google.com/citations?user=TOZ9wR4AAAAJ"
+    items:
+      - title: "[SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)"
         image: /images/projects/SynBody_small.gif
-        url: https://synbody.github.io/
-        featured:
-          name: Paper@ICCV2023
-          link: https://synbody.github.io/
-        badges:
-          - "Layered Human"
-          - "Dataset"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://synbody.github.io/
-            title: Homepage
-          - icon: fa-solid fa-database
-            url: https://openxlab.org.cn/datasets/OpenXDLab/SynBody/
-            title: Dataset
-      
-      - title: Zolly
-        content: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction
+        author:
+          - name: Zhitao Yang*
+            url: https://github.com/Maoxie
+          - name: Zhongang Cai*
+            url: https://caizhongang.github.io/
+          - name: "<u>**Haiyi Mei***</u>"
+            url:
+          - name: Shuai Liu*
+            url:
+          - name: Zhaoxi Chen*
+            url: https://frozenburning.github.io/
+          - name: Weiye Xiao
+            url: https://www.esukastudio.com/
+          - name: Yukun Wei
+            url:
+          - name: Zhongfei Qing
+            url:
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Bo Dai
+            url: https://daibo.info/
+          - name: Wayne Wu
+            url: https://wywu.github.io/
+          - name: Chen Qian
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN
+          - name: Dahua Lin
+            url: http://dahua.site/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+          - name: Lei Yang
+            url: http://yanglei.me/
+        github:
+        arxiv: https://arxiv.org/abs/2303.17368
+        date: "ICCV 2023"
+        content: >
+          SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations.
+          It supports various research topics, including human mesh recovery and novel view synthesis for human (Human NeRF).
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://synbody.github.io/"
+
+      - title: "[Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)"
         image: /images/projects/zolly.jpg
-        url: https://wenjiawang0312.github.io/projects/zolly/
-        featured:
-          name: Paper@ICCV2023
-          link: https://wenjiawang0312.github.io/projects/zolly/
-        badges:
-          - "Human Mesh Reconstruction"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://wenjiawang0312.github.io/projects/zolly/
-          - icon: fab fa-github
-            url: https://github.com/WenjiaWang0312/Zolly
-            title: Paper
-
-      - title: SHERF
-        content: Learns a Generalizable Human NeRF to animate 3D humans from a single image.
-        url: https://skhu101.github.io/SHERF/
+        author:
+          - name: Wenjia Wang
+            url: https://wenjiawang0312.github.io/
+          - name: Yongtao Ge
+            url: https://yongtaoge.github.io/
+          - name: "<u>**Haiyi Mei**</u>"
+            url:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Qingping Sun
+            url: 
+          - name: Yanjun Wang
+            url: 
+          - name: Chunhua Shen
+            url: https://cshen.github.io/
+          - name: Lei Yang
+            url: http://yanglei.me/
+          - name: Taku Komura
+            url: https://i.cs.hku.hk/~taku/
+        github: https://github.com/WenjiaWang0312/Zolly
+        arxiv: https://arxiv.org/abs/2303.13796
+        date: "ICCV 2023 (Oral)"
+        content: >
+          Zolly, the first 3DHMR method focusing on perspective-distorted images, outperforms existing methods on perspective-distorted datasets and the standard benchmark (3DPW).
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://wenjiawang0312.github.io/projects/zolly/"
+      
+      - title: "[SHERF: Generalizable Human NeRF from a Single Image](https://skhu101.github.io/SHERF/)"
         image: /images/projects/SHERF.png
-        featured:
-          name: Paper@ICCV2023
-          link: https://skhu101.github.io/SHERF/
-        badges:
-          - "Human NeRF"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://skhu101.github.io/SHERF/
-          - icon: fab fa-github
-            url: https://github.com/skhu101/SHERF
+        author:
+          - name: Shoukang Hu*
+            url: https://skhu101.github.io/
+          - name: Fangzhou Hong*
+            url: https://hongfz16.github.io/
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/skhu101/SHERF
+        arxiv: https://arxiv.org/abs/2303.12791
+        date: ICCV 2023
+        content: >
+          Reconstruct human NeRF from a single image in one forward pass!
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://skhu101.github.io/SHERF/"
 
-      - title: PrimDiffusion
-        content: Generates 3D human by denoising a set of volumetric primitives.
-        url: https://frozenburning.github.io/projects/primdiffusion/
+      - title: "[PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)"
         image: /images/projects/primdiffusion.gif
-        featured:
-          name: Paper@NeurIPS2023
-          link: https://frozenburning.github.io/projects/primdiffusion/
-        badges:
-          - "Diffusion"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://frozenburning.github.io/projects/primdiffusion/
-          - icon: fab fa-github
-            url: https://github.com/FrozenBurning/PrimDiffusion
+        author:
+          - name: Zhaoxi Chen
+            url: https://frozenburning.github.io/
+          - name: Fangzhou Hong
+            url: https://hongfz16.github.io/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Guangcong Wang
+            url: https://wanggcong.github.io/
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/FrozenBurning/PrimDiffusion
+        arxiv: https://arxiv.org/abs/2312.04559
+        date: NeurIPS 2023
+        content: >
+          PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://frozenburning.github.io/projects/primdiffusion/"
 
-      - title: HumanLiff
-        content: Learns the layer-wise 3D human generative model with a unified diffusion process.
-        url: https://skhu101.github.io/HumanLiff/
+      - title: "[SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)"
+        image: /images/projects/smplerx.gif
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Ailing Zeng
+            url: https://ailingzeng.site/
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Qingping Sun
+            url: https://github.com/ttxskk
+          - name: Yanjun Wang
+            url: https://github.com/WYJSJTU
+          - name: Hui En Pang
+            url: https://pangyyyyy.github.io
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Lei Zhang
+            url: https://www.leizhang.org/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/caizhongang/SMPLer-X
+        arxiv: https://arxiv.org/abs/2309.17448
+        date: NeurIPS 2023 <br> (Datasets and Benchmarks Track)
+        content: >
+          SMPLer-X is the first generalist foundation model for Expressive human pose and shape estimation (EHPS).
+          With big data and large model, SMPLer-X exhibits strong performance across diverse test benchmarks and excellent transferability to even unseen environments.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://caizhongang.com/projects/SMPLer-X/"
+
+      - title: "[Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)"
+        image: /images/projects/digital-life-project.jpg
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Jianping Jiang
+            url: https://alanjiang98.github.io/
+          - name: Zhongfei Qing
+            url: https://scholar.google.com/citations?user=TEticdEAAAAJ&hl=en
+          - name: Xinying Guo
+            url: https://gxyes.github.io/
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Zhengyu Lin
+            url: https://www.linkedin.com/in/zhengyu-lin-a908aba8/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Ruisi Wang
+            url: https://www.linkedin.com/in/ruisi-wang-105737220/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Xiangyu Fan
+            url: 
+          - name: Han Du
+            url: 
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN
+          - name: Peng Gao
+            url: https://gaclove.github.io/
+          - name: Zhitao Yang
+            url: https://github.com/Maoxie
+          - name: Yang Gao
+            url: 
+          - name: Jiaqi Li
+            url: https://scholar.google.com/citations?hl=en&user=iUHw_msAAAAJ
+          - name: Tianxiang Ren
+            url: 
+          - name: Yunkun Wei
+            url: https://scholar.google.com/citations?user=z4-wfncAAAAJ
+          - name: Xiaogang Wang
+            url: https://www.ee.cuhk.edu.hk/~xgwang/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        date: "Preprint 2023"
+        arxiv: https://arxiv.org/abs/2312.04547
+        content: >
+          The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
+          This project is groundbreaking in simulating life in a digital environment.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://digital-life-project.com/"
+
+      - title: "[HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)"
         image: /images/projects/HumanLiff_thumbnail.gif
-        featured:
-          name: Paper@ArXiv
-          link: https://skhu101.github.io/HumanLiff/
-        badges:
-          - "Diffusion"
-          - "XRFeitoria"
-        links:
-          - icon: fa-solid fa-house
-            url: https://skhu101.github.io/HumanLiff/
-          - icon: fab fa-github
-            url: https://github.com/skhu101/HumanLiff
+        author:
+          - name: Shoukang Hu
+            url: https://skhu101.github.io/
+          - name: Fangzhou Hong
+            url: https://hongfz16.github.io/
+          - name: Tao Hu
+            url: https://www.cs.umd.edu/~taohu/
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Weiye Xiao
+            url: https://www.esukastudio.com/
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/skhu101/HumanLiff
+        arxiv: https://arxiv.org/abs/2308.09712
+        date: Preprint 2023
+        content: >
+          HumanLiff learns the layer-wise 3D human generative model with a unified diffusion process.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://skhu101.github.io/HumanLiff/"
 
   # Education
   education:
@@ -358,7 +530,7 @@ params:
           url: "https://en.sdu.edu.cn/"
         date: "2019 - 2022"
         GPA:
-        content: |-
+        content: >
           I Published:
           - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A)
 
@@ -368,7 +540,7 @@ params:
           url: "http://www.nlpr.ia.ac.cn/en/"
         date: "2018 - 2021"
         GPA:
-        content: |-
+        content: >
           Starting to work on synthetic data generation for computer vision tasks.
 
           I Published:
@@ -381,7 +553,7 @@ params:
           url: "https://english.njust.edu.cn/"
         date: "2015 - 2019"
         GPA:
-        content: |-
+        content: >
           I Published:
           - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B)
           - <i class="fa-regular fa-file-lines"></i> Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
@@ -394,7 +566,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: |-
+    content: >
       :partying_face: Contact me for any questions or want to collaborate! Always open to new opportunities.
       
       <i class="fa-regular fa-envelope"></i> haiyimei [at] gmail.com
