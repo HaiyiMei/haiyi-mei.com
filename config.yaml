@@ -301,7 +301,7 @@ params:
         github:
         arxiv: https://arxiv.org/abs/2303.17368
         date: "ICCV 2023"
-        content: >
+        content: |-
           SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations.
           It supports various research topics, including human mesh recovery and novel view synthesis for human (Human NeRF).
         featuredLink:
@@ -333,7 +333,7 @@ params:
         github: https://github.com/WenjiaWang0312/Zolly
         arxiv: https://arxiv.org/abs/2303.13796
         date: "ICCV 2023 (Oral)"
-        content: >
+        content: |-
           Zolly, the first 3DHMR method focusing on perspective-distorted images, outperforms existing methods on perspective-distorted datasets and the standard benchmark (3DPW).
         featuredLink:
           enable: true
@@ -358,7 +358,7 @@ params:
         github: https://github.com/skhu101/SHERF
         arxiv: https://arxiv.org/abs/2303.12791
         date: ICCV 2023
-        content: >
+        content: |-
           Reconstruct human NeRF from a single image in one forward pass!
         featuredLink:
           enable: true
@@ -383,7 +383,7 @@ params:
         github: https://github.com/FrozenBurning/PrimDiffusion
         arxiv: https://arxiv.org/abs/2312.04559
         date: NeurIPS 2023
-        content: >
+        content: |-
           PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
         featuredLink:
           enable: true
@@ -422,7 +422,7 @@ params:
         github: https://github.com/caizhongang/SMPLer-X
         arxiv: https://arxiv.org/abs/2309.17448
         date: NeurIPS 2023 <br> (Datasets and Benchmarks Track)
-        content: >
+        content: |-
           SMPLer-X is the first generalist foundation model for Expressive human pose and shape estimation (EHPS).
           With big data and large model, SMPLer-X exhibits strong performance across diverse test benchmarks and excellent transferability to even unseen environments.
         featuredLink:
@@ -481,7 +481,7 @@ params:
             url: https://liuziwei7.github.io/
         date: "Preprint 2023"
         arxiv: https://arxiv.org/abs/2312.04547
-        content: >
+        content: |-
           The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
           This project is groundbreaking in simulating life in a digital environment.
         featuredLink:
@@ -511,7 +511,7 @@ params:
         github: https://github.com/skhu101/HumanLiff
         arxiv: https://arxiv.org/abs/2308.09712
         date: Preprint 2023
-        content: >
+        content: |-
           HumanLiff learns the layer-wise 3D human generative model with a unified diffusion process.
         featuredLink:
           enable: true
@@ -530,7 +530,7 @@ params:
           url: "https://en.sdu.edu.cn/"
         date: "2019 - 2022"
         GPA:
-        content: >
+        content: |-
           I Published:
           - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A)
 
@@ -540,7 +540,7 @@ params:
           url: "http://www.nlpr.ia.ac.cn/en/"
         date: "2018 - 2021"
         GPA:
-        content: >
+        content: |-
           Starting to work on synthetic data generation for computer vision tasks.
 
           I Published:
@@ -553,7 +553,7 @@ params:
           url: "https://english.njust.edu.cn/"
         date: "2015 - 2019"
         GPA:
-        content: >
+        content: |-
           I Published:
           - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B)
           - <i class="fa-regular fa-file-lines"></i> Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
@@ -566,7 +566,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: >
+    content: |-
       :partying_face: Contact me for any questions or want to collaborate! Always open to new opportunities.
       
       <i class="fa-regular fa-envelope"></i> haiyimei [at] gmail.com
