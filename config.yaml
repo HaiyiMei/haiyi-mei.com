@@ -135,11 +135,9 @@ params:
       enable: false
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: false
-      name: "Resume"
-      url: "/HaiyiMei_Resume.pdf"
-      download: false
-      newPage: true
+      enable: true
+      name: Chat with me <i class="fa-solid fa-chatgpt"></i>
+      url: https://chat.openai.com/g/g-YFsH43Vkt-haiyi-mei
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -148,6 +146,8 @@ params:
           url: https://linkedin.com/in/haiyimei/
         - icon: fa-brands fa-google-scholar
           url: https://scholar.google.com/citations?user=TOZ9wR4AAAAJ
+        # - icon: fa-solid fa-chatgpt
+        #   url: https://chat.openai.com/g/g-YFsH43Vkt-haiyi-mei
         - icon: fa-solid fa-envelope
           url: mailto:haiyimei@gmail.com
 
