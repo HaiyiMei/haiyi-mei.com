@@ -207,6 +207,8 @@ params:
           - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
           - [(Preprint) HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)
 
+          ---
+
           ##### SynBody
 
           I held a principal role in designing [<i class="fa-regular fa-file-lines"></i> SynBody](https://synbody.github.io/),
@@ -217,6 +219,8 @@ params:
           including layered human creation, motion retargeting, scene composition, rendering pipeline, and flow control.
           - Published a paper presented at ICCV 2023 as co-first author.
 
+          ---
+
           ##### Demo videos
 
           I'm proficient in crafting advanced technology demonstration videos.
@@ -224,6 +228,19 @@ params:
           - [(Github) XRFeitoria](https://github.com/openxrlab/xrfeitoria#introduction)
           - [(NIPS 2023) SMPLer-X](https://caizhongang.com/projects/SMPLer-X/)
           - [(Preprint) Digital Life Project](https://digital-life-project.com/)
+
+      - job: "Visiting Research Intern"
+        company: "NLPR | CASIA"
+        companyUrl: "http://www.nlpr.ia.ac.cn/en/"
+        info:
+          enable: false
+        date: "2018 - 2021"
+        content: |-
+          Started to work on synthetic data generation for computer vision tasks.
+
+          I Published:
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A)
+          - <i class="fa-regular fa-file-lines"></i> **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
 
   # projects
   projects:
@@ -533,19 +550,6 @@ params:
         content: |-
           I Published:
           - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A)
-
-      - title: "Visiting Research Intern"
-        school:
-          name: "Institute of Automation, Chinese Academy of Sciences"
-          url: "http://www.nlpr.ia.ac.cn/en/"
-        date: "2018 - 2021"
-        GPA:
-        content: |-
-          Starting to work on synthetic data generation for computer vision tasks.
-
-          I Published:
-          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A)
-          - <i class="fa-regular fa-file-lines"></i> **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
 
       - title: "Bachelor of Automation"
         school:
