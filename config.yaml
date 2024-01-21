@@ -128,7 +128,11 @@ params:
     intro: "Hi, my name is"
     title: "Haiyi Mei"
     subtitle: "梅海艺"
-    content: "Research Fellow at [SenseTime](https://www.sensetime.com) Research, focusing on 3D <u>synthetic data</u> generation for computer vision tasks."
+    typedStrings:
+      - "Algorithm Developer"
+      - "Backend Engineer"
+      - "Game Developer"
+      - "Amateur Musician"
     image: /images/avatar.png
     url: "https://space.bilibili.com/30424533"
     bottomImage:
@@ -136,7 +140,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: Chat with me <i class="fa-solid fa-chatgpt"></i>
+      name: Chat <i class="fa-solid fa-chatgpt"></i>
       url: https://chat.openai.com/g/g-YFsH43Vkt-haiyi-mei
     socialLinks:
       fontAwesomeIcons:
@@ -157,9 +161,14 @@ params:
     title: "About Me"
     image: "/images/me-paris.jpg"
     content: |-
-      I'm a research fellow working on Computer Graphics and Computer Vision at SenseTime Research.
+      :waving_hand:
+      I'm a committed algorithm researcher and backend engineer with 3 years of industry experience.
+      Specializing in 3D synthetic data generation for computer vision tasks,
+      I contributed to [5 papers](#publications) in top-tier conferences.
 
-      I focus on synthetic data generation for computer vision tasks, mainly on 3D human related tasks, such as human mesh recovery, human nerf, etc.
+      I possess expertise in game engines, computer graphics, and machine learning.
+      I'm into engine tools development, backend development, and built [open-source projects](#projects) and scalable robust systems.
+    
     skills:
       enable: true
       title: "Skills I'm working with:"
@@ -224,10 +233,13 @@ params:
           ##### Demo videos
 
           I'm proficient in crafting advanced technology demonstration videos.
-          - [(ICCV 2023) SynBody](https://synbody.github.io/)
-          - [(Github) XRFeitoria](https://github.com/openxrlab/xrfeitoria#introduction)
-          - [(NIPS 2023) SMPLer-X](https://caizhongang.com/projects/SMPLer-X/)
-          - [(Preprint) Digital Life Project](https://digital-life-project.com/)
+
+          <div class="col-auto justify-content-center">
+            <a href="https://synbody.github.io/" target="_blank"><img src="/images/projects/SynBody_small.gif" width="200"/></a>
+            <a href="https://github.com/openxrlab/xrfeitoria" target="_blank"><img src="/images/projects/XRFeitoria_small.gif" width="200"/></a>
+            <a href="https://caizhongang.com/projects/SMPLer-X/" target="_blank"><img src="/images/projects/smplerx-demo.gif" width="200"/></a>
+            <a href="https://digital-life-project.com/" target="_blank"><img src="/images/projects/digital-life-project.gif" width="200"/></a>
+          </div>
 
       - job: "Visiting Research Intern"
         company: "NLPR | CASIA"
@@ -237,14 +249,16 @@ params:
         date: "2018 - 2021"
         content: |-
           Started to work on synthetic data generation for computer vision tasks.
+            - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A).
+            - <i class="fa-regular fa-file-lines"></i> [One paper](http://www.txxb.com.cn/EN/abstract/abstract1967.shtml) related to synthetic data.
 
-          I Published:
-          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A)
-          - <i class="fa-regular fa-file-lines"></i> **Haiyi MEI**, Xiangyu ZHU, Zhen LEI, Rui GAO, Xibo MA. Scene flow prediction with simulated real scenarios. Journal of Graphics, 2022, 43(3): 404-412.
+          Had the experience of reproducing the SOTA methods in video captioning.
+          [<i class="fa-brands fa-github"></i> Code](https://github.com/HaiyiMei/s2vt_transformer)
 
   # projects
   projects:
     enable: true
+    url: "https://github.com/HaiyiMei"
     title: "Open-Source Projects"
     items:
       - title: "[XRFeitoria: Rendering Toolbox for Synthetic Data Generation](https://github.com/openxrlab/xrfeitoria)"
@@ -549,7 +563,7 @@ params:
         GPA:
         content: |-
           I Published:
-          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A)
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A).
 
       - title: "Bachelor of Automation"
         school:
@@ -559,13 +573,13 @@ params:
         GPA:
         content: |-
           I Published:
-          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B)
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B).
           - <i class="fa-regular fa-file-lines"></i> Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
           
 
           Extracurricular Activities
-            - <i class="fa-solid fa-music"></i> Head of the Symphony Orchestra of School, 2016 - 2018
-            - <i class="fa-solid fa-music"></i> First Place Award, National University Piano Competition, Chinese Golden Bell Award for Music, 2017
+            - <i class="fa-solid fa-music"></i> Head of the Symphony Orchestra of School, 2016 - 2018.
+            - <i class="fa-solid fa-music"></i> First Place Award, National University Piano Competition, Chinese Golden Bell Award for Music, 2017.
 
   contact:
     enable: true
