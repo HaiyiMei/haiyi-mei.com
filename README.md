@@ -33,11 +33,11 @@ brew install hugo
 ### Preview
 
 ```bash
-hugo server --themesDir ../.. --disableFastRender
+hugo server --disableFastRender
 ```
 
 ### Build static files
 
 ```bash
-hugo --gc --minify --baseURL haiyi-mei.com --themesDir ../..
+hugo --gc --minify --baseURL haiyi-mei.com
 ```
