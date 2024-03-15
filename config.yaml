@@ -521,7 +521,7 @@ params:
             url: https://yanglei.me/
           - name: Ziwei Liu
             url: https://liuziwei7.github.io/
-        date: "Preprint 2023"
+        date: "CVPR 2024"
         arxiv: https://arxiv.org/abs/2312.04547
         content: |-
           The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
