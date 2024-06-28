@@ -165,7 +165,7 @@ params:
       :waving_hand:
       I'm a committed algorithm researcher and backend engineer with 3 years of industry experience.
       Specializing in 3D synthetic data generation for computer vision tasks,
-      I contributed to [5 papers](#publications) in top-tier conferences.
+      I contributed to [7 papers](#publications) in top-tier conferences.
 
       I possess expertise in game engines, computer graphics, and machine learning.
       I'm into:
@@ -307,6 +307,170 @@ params:
     index: false
     url: "https://scholar.google.com/citations?user=TOZ9wR4AAAAJ"
     items:
+
+
+      - title: "[Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)"
+        image: /images/projects/digital-life-project.jpg
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Jianping Jiang
+            url: https://alanjiang98.github.io/
+          - name: Zhongfei Qing
+            url: https://scholar.google.com/citations?user=TEticdEAAAAJ&hl=en
+          - name: Xinying Guo
+            url: https://gxyes.github.io/
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Zhengyu Lin
+            url: https://www.linkedin.com/in/zhengyu-lin-a908aba8/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Ruisi Wang
+            url: https://www.linkedin.com/in/ruisi-wang-105737220/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Xiangyu Fan
+            url: 
+          - name: Han Du
+            url: 
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN
+          - name: Peng Gao
+            url: https://gaclove.github.io/
+          - name: Zhitao Yang
+            url: https://github.com/Maoxie
+          - name: Yang Gao
+            url: 
+          - name: Jiaqi Li
+            url: https://scholar.google.com/citations?hl=en&user=iUHw_msAAAAJ
+          - name: Tianxiang Ren
+            url: 
+          - name: Yunkun Wei
+            url: https://scholar.google.com/citations?user=z4-wfncAAAAJ
+          - name: Xiaogang Wang
+            url: https://www.ee.cuhk.edu.hk/~xgwang/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        date: "CVPR 2024"
+        arxiv: https://arxiv.org/abs/2312.04547
+        content: |-
+          The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
+          This project is groundbreaking in simulating life in a digital environment.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://digital-life-project.com/"
+
+      - title: "[AiOS: All-in-One-Stage 3D Wholebody Mesh Recovery](https://ttxskk.github.io/AiOS/)"
+        image: /images/projects/aios.gif
+        author:
+          - name: "Qingping Sun"
+            url: "https://github.com/ttxskk"
+          - name: "Yanjun Wang"
+            url: "https://github.com/WYJSJTU"
+          - name: "Ailing Zeng"
+            url: "https://ailingzeng.site/"
+          - name: "Wanqi Yin"
+            url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ"
+          - name: "Chen Wei"
+            url: "https://www.linkedin.com/in/chen-wei-weic0006/"
+          - name: "Wenjia Wang"
+            url: "https://wenjiawang0312.github.io/"
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: "Chi Sing Leung"
+            url: "https://ttxskk.github.io/AiOS/"
+          - name: "Ziwei Liu"
+            url: "https://liuziwei7.github.io/"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+          - name: "Zhongang Cai"
+            url: "https://caizhongang.github.io/"
+        date: "CVPR 2024"
+        github: https://github.com/ttxskk/AiOS
+        arxiv: https://arxiv.org/abs/2303.16160
+        content: |-
+          AiOS performs human localization and SMPL-X estimation in a progressive manner. 
+          It is composed of (1) the body localization stage that predicts coarse human location; 
+          (2) the Body refinement stage that refines body features and produces face and hand locations; 
+          (3) the Whole-body Refinement stage that refines whole-body features and regress SMPL-X parameters.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://ttxskk.github.io/AiOS/"
+
+      - title: "[PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)"
+        image: /images/projects/primdiffusion.gif
+        author:
+          - name: Zhaoxi Chen
+            url: https://frozenburning.github.io/
+          - name: Fangzhou Hong
+            url: https://hongfz16.github.io/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Guangcong Wang
+            url: https://wanggcong.github.io/
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/FrozenBurning/PrimDiffusion
+        arxiv: https://arxiv.org/abs/2312.04559
+        date: NeurIPS 2023
+        content: |-
+          PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://frozenburning.github.io/projects/primdiffusion/"
+
+      - title: "[SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)"
+        image: /images/projects/smplerx.gif
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Ailing Zeng
+            url: https://ailingzeng.site/
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Qingping Sun
+            url: https://github.com/ttxskk
+          - name: Yanjun Wang
+            url: https://github.com/WYJSJTU
+          - name: Hui En Pang
+            url: https://pangyyyyy.github.io
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Lei Zhang
+            url: https://www.leizhang.org/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/caizhongang/SMPLer-X
+        arxiv: https://arxiv.org/abs/2309.17448
+        date: NeurIPS 2023 <br> (Datasets and Benchmarks Track)
+        content: |-
+          SMPLer-X is the first generalist foundation model for Expressive human pose and shape estimation (EHPS).
+          With big data and large model, SMPLer-X exhibits strong performance across diverse test benchmarks and excellent transferability to even unseen environments.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://caizhongang.com/projects/SMPLer-X/"
+
       - title: "[SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)"
         image: /images/projects/SynBody_small.gif
         author:
@@ -406,130 +570,6 @@ params:
           enable: true
           name: "View the project"
           url: "https://skhu101.github.io/SHERF/"
-
-      - title: "[PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)"
-        image: /images/projects/primdiffusion.gif
-        author:
-          - name: Zhaoxi Chen
-            url: https://frozenburning.github.io/
-          - name: Fangzhou Hong
-            url: https://hongfz16.github.io/
-          - name: <u>**Haiyi Mei**</u>
-            url:
-          - name: Guangcong Wang
-            url: https://wanggcong.github.io/
-          - name: Lei Yang
-            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
-          - name: Ziwei Liu
-            url: https://liuziwei7.github.io/
-        github: https://github.com/FrozenBurning/PrimDiffusion
-        arxiv: https://arxiv.org/abs/2312.04559
-        date: NeurIPS 2023
-        content: |-
-          PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://frozenburning.github.io/projects/primdiffusion/"
-
-      - title: "[SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)"
-        image: /images/projects/smplerx.gif
-        author:
-          - name: Zhongang Cai
-            url: https://caizhongang.github.io/
-          - name: Wanqi Yin
-            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
-          - name: Ailing Zeng
-            url: https://ailingzeng.site/
-          - name: Chen Wei
-            url: https://www.linkedin.com/in/chen-wei-weic0006/
-          - name: Qingping Sun
-            url: https://github.com/ttxskk
-          - name: Yanjun Wang
-            url: https://github.com/WYJSJTU
-          - name: Hui En Pang
-            url: https://pangyyyyy.github.io
-          - name: <u>**Haiyi Mei**</u>
-            url: 
-          - name: Mingyuan Zhang
-            url: https://mingyuan-zhang.github.io/
-          - name: Lei Zhang
-            url: https://www.leizhang.org/
-          - name: Chen Change Loy
-            url: https://www.mmlab-ntu.com/person/ccloy/
-          - name: Lei Yang
-            url: https://yanglei.me/
-          - name: Ziwei Liu
-            url: https://liuziwei7.github.io/
-        github: https://github.com/caizhongang/SMPLer-X
-        arxiv: https://arxiv.org/abs/2309.17448
-        date: NeurIPS 2023 <br> (Datasets and Benchmarks Track)
-        content: |-
-          SMPLer-X is the first generalist foundation model for Expressive human pose and shape estimation (EHPS).
-          With big data and large model, SMPLer-X exhibits strong performance across diverse test benchmarks and excellent transferability to even unseen environments.
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://caizhongang.com/projects/SMPLer-X/"
-
-      - title: "[Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)"
-        image: /images/projects/digital-life-project.jpg
-        author:
-          - name: Zhongang Cai
-            url: https://caizhongang.github.io/
-          - name: Jianping Jiang
-            url: https://alanjiang98.github.io/
-          - name: Zhongfei Qing
-            url: https://scholar.google.com/citations?user=TEticdEAAAAJ&hl=en
-          - name: Xinying Guo
-            url: https://gxyes.github.io/
-          - name: Mingyuan Zhang
-            url: https://mingyuan-zhang.github.io/
-          - name: Zhengyu Lin
-            url: https://www.linkedin.com/in/zhengyu-lin-a908aba8/
-          - name: <u>**Haiyi Mei**</u>
-            url:
-          - name: Chen Wei
-            url: https://www.linkedin.com/in/chen-wei-weic0006/
-          - name: Ruisi Wang
-            url: https://www.linkedin.com/in/ruisi-wang-105737220/
-          - name: Wanqi Yin
-            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
-          - name: Xiangyu Fan
-            url: 
-          - name: Han Du
-            url: 
-          - name: Liang Pan
-            url: https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN
-          - name: Peng Gao
-            url: https://gaclove.github.io/
-          - name: Zhitao Yang
-            url: https://github.com/Maoxie
-          - name: Yang Gao
-            url: 
-          - name: Jiaqi Li
-            url: https://scholar.google.com/citations?hl=en&user=iUHw_msAAAAJ
-          - name: Tianxiang Ren
-            url: 
-          - name: Yunkun Wei
-            url: https://scholar.google.com/citations?user=z4-wfncAAAAJ
-          - name: Xiaogang Wang
-            url: https://www.ee.cuhk.edu.hk/~xgwang/
-          - name: Chen Change Loy
-            url: https://www.mmlab-ntu.com/person/ccloy/
-          - name: Lei Yang
-            url: https://yanglei.me/
-          - name: Ziwei Liu
-            url: https://liuziwei7.github.io/
-        date: "CVPR 2024"
-        arxiv: https://arxiv.org/abs/2312.04547
-        content: |-
-          The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
-          This project is groundbreaking in simulating life in a digital environment.
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://digital-life-project.com/"
 
       - title: "[HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)"
         image: /images/projects/HumanLiff_thumbnail.gif
