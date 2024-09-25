@@ -149,6 +149,8 @@ params:
           url: https://github.com/HaiyiMei
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/haiyimei/
+        - icon: fab fa-youtube
+          url: https://www.youtube.com/@haiyimei
         - icon: fa-brands fa-google-scholar
           url: https://scholar.google.com/citations?user=TOZ9wR4AAAAJ
         # - icon: fa-solid fa-chatgpt
@@ -308,6 +310,80 @@ params:
     url: "https://scholar.google.com/citations?user=TOZ9wR4AAAAJ"
     items:
 
+      - title: "Differentiable Convex Polyhedra Optimization from Multi-view Images"
+        image: /images/projects/2024_eccv_DiffConvex.png
+        author:
+          - name: "Daxuan Ren"
+            url: "https://kimren227.github.io/"
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: "Hezi Shi"
+            url: "https://www.linkedin.com/in/hezi-shi-478900164/"
+          - name: "Jianmin Zheng"
+            url: "https://personal.ntu.edu.sg/asjmzheng/"
+          - name: "Jianfei Cai"
+            url: "https://jianfei-cai.github.io/"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+        date: "ECCV 2024"
+        github: https://github.com/kimren227/DiffConvex
+        arxiv: https://arxiv.org/abs/2407.15686
+        content: >
+          A method is introduced for differentiable rendering of convex polyhedra, combining hyperplane intersection with vertex optimization, 
+          enabling efficient shape representation without 3D implicit fields. 
+          It addresses limitations of prior methods and sets a new standard for representing convex polyhedra.
+        featuredLink:
+          enable: false
+
+      - title: "WHAC: World-grounded Humans and Cameras"
+        image: /images/projects/2024_eccv_whac.jpg
+        author:
+          - name: "Wanqi Yin"
+            url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ"
+            affiliation: "SenseTime Research"
+          - name: "Zhongang Cai"
+            url: "https://caizhongang.github.io/"
+            affiliation: "SenseTime Research"
+          - name: "Ruisi Wang"
+            url: "https://www.linkedin.com/in/ruisi-wang-105737220/"
+            affiliation: "SenseTime Research"
+          - name: "Fanzhou Wang"
+            url: "https://scholar.google.com/citations?hl=zh-CN&user=dtXIEXoAAAAJ"
+            affiliation: "SenseTime Research"
+          - name: "Chen Wei"
+            url: "https://www.linkedin.com/in/chen-wei-weic0006/"
+            affiliation: "SenseTime Research"
+          - name: <u>**Haiyi Mei**</u>
+            url:
+            affiliation: "SenseTime Research"
+          - name: "Weiye Xiao"
+            url: "https://www.esukastudio.com"
+            affiliation: "SenseTime Research"
+          - name: "Zhitao Yang"
+            url: "https://yangzhitao.top"
+            affiliation: "SenseTime Research"
+          - name: "Qingping Sun"
+            url: "https://github.com/ttxskk"
+            affiliation: "SenseTime Research"
+          - name: "Atsushi Yamashita"
+            url: "https://www.robot.t.u-tokyo.ac.jp/~yamashita/profile-e.html"
+            affiliation: "The University of Tokyo"
+          - name: "Ziwei Liu"
+            url: "https://liuziwei7.github.io/"
+            affiliation: "S-Lab, Nanyang Technological University"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+            affiliation: "SenseTime Research"
+        date: "ECCV 2024"
+        github: https://github.com/wqyin/WHAC
+        arxiv: "https://arxiv.org/abs/2403.12959"
+        content: |-
+          WHAC, a framework for jointly estimating human models (SMPL-X) and camera poses from monocular video, using depth cues from human motion. 
+          Along with this, the WHAC-A-Mole dataset was presented, featuring annotated human motions and camera trajectories. 
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://wqyin.github.io/projects/WHAC/"
 
       - title: "[Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)"
         image: /images/projects/digital-life-project.jpg
@@ -369,7 +445,7 @@ params:
           url: "https://digital-life-project.com/"
 
       - title: "[AiOS: All-in-One-Stage 3D Wholebody Mesh Recovery](https://ttxskk.github.io/AiOS/)"
-        image: /images/projects/aios.gif
+        image: /images/projects/2024_cvpr_aios.gif
         author:
           - name: "Qingping Sun"
             url: "https://github.com/ttxskk"
