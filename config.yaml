@@ -281,7 +281,7 @@ params:
           - Render photorealistic images with ground-truth annotations.
           - Manage assets/cameras, including import, place, export, and delete.
           - CLI tools to render images from a mesh file.
-          - Streamline building rendering pipelines across various domains, effectively implemented in over **6 projects**.
+          - Streamline building rendering pipelines across various domains, effectively implemented in over **8 projects**.
         image: /images/projects/XRFeitoria_small.gif
         url: https://github.com/openxrlab/xrfeitoria
         featured:
