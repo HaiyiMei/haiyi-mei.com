@@ -223,10 +223,13 @@ params:
           for topics including human mesh recovery, novel view synthesis, etc, 
           leading to the publishing of several papers within a short timeframe:
 
+          - [(ECCV 2024) WHAC: World-grounded Humans and Cameras](https://wqyin.github.io/projects/WHAC/)
+          - [(CVPR 2024) AiOS: All-in-One-Stage 3D Wholebody Mesh Recovery](https://ttxskk.github.io/AiOS/)
+          - [(NIPS 2023) SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)
+          - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
           - [(ICCV 2023) SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)
           - [(ICCV 2023) Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)
           - [(ICCV 2023) SHERF: Generalizable Human NeRF from a Single Image](https://skhu101.github.io/SHERF/)
-          - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
           - [(Preprint) HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)
 
           ---
