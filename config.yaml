@@ -169,13 +169,17 @@ params:
       Specializing in 3D synthetic data generation for computer vision tasks,
       I contributed to [9 papers](#publications) in top-tier conferences.
 
-      I possess expertise in game engines, computer graphics, and machine learning.
-      I'm into:
-      - Engine tools development (Unreal Engine, Blender, etc.)
-      - Rendering techniques (PBR, differentiable rendering, NeRF, etc.)
-      - 3D computer vision (Novel view synthesis, generative models on 3D, etc.)
-      - Backend development (FastAPI, Flask, etc.) and scalable robust systems
-      - Open-source projects
+      Recently, I've been focusing on text/image-to-video generation,
+      contributing to VAE training, dataset preparation, automated annotation, and video acquisition using crawler techniques.
+      I'm well-versed in the entire T2V pipeline and passionate about pushing the boundaries of innovation in this field.
+
+      My expertise spans:
+      - Engine tools development: Unreal Engine, Blender, etc.
+      - Rendering techniques: PBR, differentiable rendering, NeRF, 3DGS, etc.
+      - 3D computer vision: Novel view synthesis, generative models on 3D, etc.
+      - Text/image-to-video generation: VAE, Diffusion models, dataset preparation (automated annotation, crawler techniques), etc.
+      - Backend development: FastAPI, Flask, scalable robust system design, etc.
+      - Open-source projects: CI/CD, Docker, Kubernetes, etc.
 
       Languages and tools I'm working with:
 
@@ -210,11 +214,21 @@ params:
         info:
           enable: false
         content: |-
-          I am working on <u>synthetic data</u> generation for computer vision tasks.
+          #### >> Text/Image-to-Video Generation
+
+          I'm well-versed in the entire T2V pipeline and passionate about pushing the boundaries of innovation in this field.
+
+            - Led VAE training, successfully reproducing results comparable to the VAE of [CogVideo](https://github.com/THUDM/CogVideo) with similar performance.
+            - Contributed to the data annotation process by supporting the application of textual, visual, and qualitative analyses to ensure high-quality video datasets.
+            - Developed automated solutions for video content acquisition from various online platforms lacking direct API support.
 
           ----
 
-          ##### XRFeitoria
+          #### >> Synthetic Data Generation
+
+          ----
+
+          ##### >>>> XRFeitoria
 
           I spearheaded the development of <a href="https://github.com/openxrlab/xrfeitoria">
           XRFeitoria <img src="https://img.shields.io/github/stars/openxrlab/xrfeitoria" alt="XRFeitoria"/></a>,
@@ -234,7 +248,7 @@ params:
 
           ---
 
-          ##### SynBody
+          ##### >>>> SynBody
 
           I held a principal role in designing [<i class="fa-regular fa-file-lines"></i> SynBody](https://synbody.github.io/),
           a large-scale synthetic dataset with layered human models.
@@ -246,7 +260,7 @@ params:
 
           ---
 
-          ##### Demo videos
+          #### >> Demo videos
 
           I'm proficient in crafting advanced technology demonstration videos.
 
