@@ -1,0 +1,774 @@
+baseURL: "https://haiyi-mei.com"
+languageCode: "en-us"
+title: "Haiyi Mei"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+blackfriday:
+  plainIDAnchors: true
+  hrefTargetBlank: true
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+googleAnalytics: G-8T9VFZSLDR
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    -
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Haiyi Mei"
+  description: My personal website
+  # staticPath: ""  # The path to serve the static files from
+  favicon: /images/avatar.png
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  color:
+    # textColor:
+    # secondaryTextColor:
+    # backgroundColor:
+    # secondaryBackgroundColor:
+    # primaryColor:
+    # secondaryColor:
+
+    darkmode:
+      textColor:
+      secondaryTextColor:
+      backgroundColor:
+      secondaryBackgroundColor:
+      primaryColor: "#8abecc"
+      secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: " " # Brand name for the brand | default is the title variable
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Haiyi Mei"
+    subtitle: "梅海艺"
+    typedStrings:
+      - "Algorithm Developer"
+      - "Synthetic Data Engineer"
+      - "Backend Engineer"
+      - "Game Developer"
+      - "Amateur Musician"
+    image: /images/avatar.png
+    url: "https://space.bilibili.com/30424533"
+    bottomImage:
+      enable: false
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: Chat <i class="fa-solid fa-chatgpt"></i>
+      url: https://chat.openai.com/g/g-YFsH43Vkt-haiyi-mei
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/HaiyiMei
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/haiyimei/
+        - icon: fab fa-youtube
+          url: https://www.youtube.com/@haiyimei
+        - icon: fa-brands fa-google-scholar
+          url: https://scholar.google.com/citations?user=TOZ9wR4AAAAJ
+        # - icon: fa-solid fa-chatgpt
+        #   url: https://chat.openai.com/g/g-YFsH43Vkt-haiyi-mei
+        - icon: fa-solid fa-envelope
+          url: mailto:haiyimei@gmail.com
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me-paris.jpg"
+    content: |-
+      :waving_hand:
+      I'm a committed algorithm researcher and backend engineer with 3 years of industry experience.
+      Specializing in 3D synthetic data generation for computer vision tasks,
+      I contributed to [9 papers](#publications) in top-tier conferences.
+
+      Recently, I've been focusing on text/image-to-video generation,
+      contributing to VAE training, dataset preparation, automated annotation, and video acquisition using crawler techniques.
+      I'm well-versed in the entire T2V pipeline and passionate about pushing the boundaries of innovation in this field.
+
+      My expertise spans:
+      - Engine tools development: Unreal Engine, Blender, etc.
+      - Rendering techniques: PBR, differentiable rendering, NeRF, 3DGS, etc.
+      - 3D computer vision: Novel view synthesis, generative models on 3D, etc.
+      - Text/image-to-video generation: VAE, Diffusion models, dataset preparation (automated annotation, crawler techniques), etc.
+      - Backend development: FastAPI, Flask, scalable robust system design, etc.
+      - Open-source projects: CI/CD, Docker, Kubernetes, etc.
+
+      Languages and tools I'm working with:
+
+      [![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=Python&logoColor=white)](https://www.python.org)
+      [![C++](https://img.shields.io/badge/C++-00599C.svg?logo=c%2B%2B&logoColor=white)](https://www.w3schools.com/cpp/)
+      [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
+      [![Unreal Engine](https://img.shields.io/badge/-Unreal%20Engine-0E1128?logo=unrealengine&logoColor=white)](https://unrealengine.com/)
+      [![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?logo=Blender&logoColor=white)](https://www.blender.org/)
+      [![PyTorch3D Badge](https://custom-icon-badges.demolab.com/badge/PyTorch3D-white.svg?logo=pytorch3d&logoColor=white)](https://pytorch3d.org/)
+      [![Mitsuba Badge](https://custom-icon-badges.demolab.com/badge/Mitsuba-green.svg?logo=mitsuba&logoColor=white)](https://www.mitsuba-renderer.org/)
+      <br>
+      [![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?logo=Docker&logoColor=white)](https://www.docker.com/)
+      [![Flask](https://img.shields.io/badge/Flask-black.svg?logo=Flask&logoColor=white)](https://flask.palletsprojects.com/)
+      [![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com/)
+      [![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?logo=Kubernetes&logoColor=white)](https://kubernetes.io)
+      [![Git](https://img.shields.io/badge/Git-%23F05033.svg?logo=Git&logoColor=white)](https://git-scm.com/)
+      [![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?logo=Linux&logoColor=black)](https://www.linux.org/)
+      [![LaTex](https://img.shields.io/badge/LaTeX-%23008080.svg?logo=LaTeX&logoColor=white)](https://www.latex-project.org/)
+    
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Mid-Level Algorithm Researcher"
+        company: "SenseTime"
+        companyUrl: "https://www.sensetime.com"
+        date: "June 2021 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |-
+          #### >> Text/Image-to-Video Generation
+
+          I'm well-versed in the entire T2V pipeline and passionate about pushing the boundaries of innovation in this field.
+
+            - Led VAE training, successfully reproducing results comparable to the VAE of [CogVideo](https://github.com/THUDM/CogVideo) with similar performance.
+            - Contributed to the data annotation process by supporting the application of textual, visual, and qualitative analyses to ensure high-quality video datasets.
+            - Developed automated solutions for video content acquisition from various online platforms lacking direct API support.
+
+          ----
+
+          #### >> Synthetic Data Generation
+
+          ----
+
+          ##### >>>> XRFeitoria
+
+          I spearheaded the development of <a href="https://github.com/openxrlab/xrfeitoria">
+          XRFeitoria <img src="https://img.shields.io/github/stars/openxrlab/xrfeitoria" alt="XRFeitoria"/></a>,
+          a rendering toolbox designed to streamline synthetic data generation.
+          This tool simplifies the construction of pipelines 
+          for topics including human mesh recovery, novel view synthesis, etc, 
+          leading to the publishing of several papers within a short timeframe:
+
+          - [(ECCV 2024) WHAC: World-grounded Humans and Cameras](https://wqyin.github.io/projects/WHAC/)
+          - [(CVPR 2024) AiOS: All-in-One-Stage 3D Wholebody Mesh Recovery](https://ttxskk.github.io/AiOS/)
+          - [(NIPS 2023) SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)
+          - [(NIPS 2023) PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)
+          - [(ICCV 2023) SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)
+          - [(ICCV 2023) Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)
+          - [(ICCV 2023) SHERF: Generalizable Human NeRF from a Single Image](https://skhu101.github.io/SHERF/)
+          - [(Preprint) HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)
+
+          ---
+
+          ##### >>>> SynBody
+
+          I held a principal role in designing [<i class="fa-regular fa-file-lines"></i> SynBody](https://synbody.github.io/),
+          a large-scale synthetic dataset with layered human models.
+
+          - Participated in designing SMPL-XL, which enriches SMPL-X in hair, garments, accessories, and textures.
+          - Built a System of synthetic data generation as a Software-as-a-Service (SaaS) platform,
+          including layered human creation, motion retargeting, scene composition, rendering pipeline, and flow control.
+          - Published a paper presented at ICCV 2023 as co-first author.
+
+          ---
+
+          #### >> Demo videos
+
+          I'm proficient in crafting advanced technology demonstration videos.
+
+          <div class="col-auto justify-content-center">
+            <a href="https://synbody.github.io/" target="_blank"><img src="/images/projects/SynBody_small.gif" width="200"/></a>
+            <a href="https://github.com/openxrlab/xrfeitoria" target="_blank"><img src="/images/projects/XRFeitoria_small.gif" width="200"/></a>
+            <a href="https://caizhongang.com/projects/SMPLer-X/" target="_blank"><img src="/images/projects/smplerx-demo.gif" width="200"/></a>
+            <a href="https://digital-life-project.com/" target="_blank"><img src="/images/projects/digital-life-project.gif" width="200"/></a>
+          </div>
+
+      - job: "Visiting Research Intern"
+        company: "NLPR | CASIA"
+        companyUrl: "http://www.nlpr.ia.ac.cn/en/"
+        info:
+          enable: false
+        date: "2018 - 2021"
+        content: |-
+          Started to work on synthetic data generation for computer vision tasks.
+            - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN113011334A](https://patents.google.com/patent/CN113011334A).
+            - <i class="fa-regular fa-file-lines"></i> [One paper](http://www.txxb.com.cn/EN/abstract/abstract1967.shtml) related to synthetic data.
+
+          Had the experience of reproducing the SOTA methods in video captioning.
+          [<i class="fa-brands fa-github"></i> Code](https://github.com/HaiyiMei/s2vt_transformer)
+
+  # projects
+  projects:
+    enable: true
+    url: "https://github.com/HaiyiMei"
+    title: "Open-Source Projects"
+    items:
+      - title: "[XRFeitoria: Rendering Toolbox for Synthetic Data Generation](https://github.com/openxrlab/xrfeitoria)"
+        content: |-
+          - Control over engine (UE/Blender) through RPC using system python.
+          - Support multiple engine backends, including Unreal Engine and Blender.
+          - Render photorealistic images with ground-truth annotations.
+          - Manage assets/cameras, including import, place, export, and delete.
+          - CLI tools to render images from a mesh file.
+          - Streamline building rendering pipelines across various domains, effectively implemented in over **8 projects**.
+        image: /images/projects/XRFeitoria_small.gif
+        url: https://github.com/openxrlab/xrfeitoria
+        featured:
+          name: Open-source Toolbox
+          link: https://github.com/openxrlab/xrfeitoria
+        badges:
+          - "Python"
+          - "C++"
+          - "Blender"
+          - "Unreal Engine"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/openxrlab/xrfeitoria
+            title: Github
+          - icon: fa-solid fa-book
+            url: https://xrfeitoria.readthedocs.io
+            title: Docs
+          - icon: fa-brands fa-python
+            url: https://pypi.org/project/xrfeitoria/
+            title: PyPI
+
+  # publications
+  publications:
+    enable: true
+    index: false
+    url: "https://scholar.google.com/citations?user=TOZ9wR4AAAAJ"
+    items:
+
+      - title: "Differentiable Convex Polyhedra Optimization from Multi-view Images"
+        image: /images/projects/2024_eccv_DiffConvex.png
+        author:
+          - name: "Daxuan Ren"
+            url: "https://kimren227.github.io/"
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: "Hezi Shi"
+            url: "https://www.linkedin.com/in/hezi-shi-478900164/"
+          - name: "Jianmin Zheng"
+            url: "https://personal.ntu.edu.sg/asjmzheng/"
+          - name: "Jianfei Cai"
+            url: "https://jianfei-cai.github.io/"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+        date: "ECCV 2024"
+        github: https://github.com/kimren227/DiffConvex
+        arxiv: https://arxiv.org/abs/2407.15686
+        content: >
+          A method is introduced for differentiable rendering of convex polyhedra, combining hyperplane intersection with vertex optimization, 
+          enabling efficient shape representation without 3D implicit fields. 
+          It addresses limitations of prior methods and sets a new standard for representing convex polyhedra.
+        featuredLink:
+          enable: false
+
+      - title: "WHAC: World-grounded Humans and Cameras"
+        image: /images/projects/2024_eccv_whac.jpg
+        author:
+          - name: "Wanqi Yin"
+            url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ"
+            affiliation: "SenseTime Research"
+          - name: "Zhongang Cai"
+            url: "https://caizhongang.github.io/"
+            affiliation: "SenseTime Research"
+          - name: "Ruisi Wang"
+            url: "https://www.linkedin.com/in/ruisi-wang-105737220/"
+            affiliation: "SenseTime Research"
+          - name: "Fanzhou Wang"
+            url: "https://scholar.google.com/citations?hl=zh-CN&user=dtXIEXoAAAAJ"
+            affiliation: "SenseTime Research"
+          - name: "Chen Wei"
+            url: "https://www.linkedin.com/in/chen-wei-weic0006/"
+            affiliation: "SenseTime Research"
+          - name: <u>**Haiyi Mei**</u>
+            url:
+            affiliation: "SenseTime Research"
+          - name: "Weiye Xiao"
+            url: "https://www.esukastudio.com"
+            affiliation: "SenseTime Research"
+          - name: "Zhitao Yang"
+            url: "https://yangzhitao.top"
+            affiliation: "SenseTime Research"
+          - name: "Qingping Sun"
+            url: "https://github.com/ttxskk"
+            affiliation: "SenseTime Research"
+          - name: "Atsushi Yamashita"
+            url: "https://www.robot.t.u-tokyo.ac.jp/~yamashita/profile-e.html"
+            affiliation: "The University of Tokyo"
+          - name: "Ziwei Liu"
+            url: "https://liuziwei7.github.io/"
+            affiliation: "S-Lab, Nanyang Technological University"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+            affiliation: "SenseTime Research"
+        date: "ECCV 2024"
+        github: https://github.com/wqyin/WHAC
+        arxiv: "https://arxiv.org/abs/2403.12959"
+        content: |-
+          WHAC, a framework for jointly estimating human models (SMPL-X) and camera poses from monocular video, using depth cues from human motion. 
+          Along with this, the WHAC-A-Mole dataset was presented, featuring annotated human motions and camera trajectories. 
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://wqyin.github.io/projects/WHAC/"
+
+      - title: "[Digital Life Project: Autonomous 3D Characters with Social Intelligence](https://digital-life-project.com/)"
+        image: /images/projects/digital-life-project.jpg
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Jianping Jiang
+            url: https://alanjiang98.github.io/
+          - name: Zhongfei Qing
+            url: https://scholar.google.com/citations?user=TEticdEAAAAJ&hl=en
+          - name: Xinying Guo
+            url: https://gxyes.github.io/
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Zhengyu Lin
+            url: https://www.linkedin.com/in/zhengyu-lin-a908aba8/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Ruisi Wang
+            url: https://www.linkedin.com/in/ruisi-wang-105737220/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Xiangyu Fan
+            url: 
+          - name: Han Du
+            url: 
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN
+          - name: Peng Gao
+            url: https://gaclove.github.io/
+          - name: Zhitao Yang
+            url: https://github.com/Maoxie
+          - name: Yang Gao
+            url: 
+          - name: Jiaqi Li
+            url: https://scholar.google.com/citations?hl=en&user=iUHw_msAAAAJ
+          - name: Tianxiang Ren
+            url: 
+          - name: Yunkun Wei
+            url: https://scholar.google.com/citations?user=z4-wfncAAAAJ
+          - name: Xiaogang Wang
+            url: https://www.ee.cuhk.edu.hk/~xgwang/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        date: "CVPR 2024"
+        arxiv: https://arxiv.org/abs/2312.04547
+        content: |-
+          The Digital Life Project creates autonomous 3D characters capable of engaging in social interactions and expressing through body motions. 
+          This project is groundbreaking in simulating life in a digital environment.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://digital-life-project.com/"
+
+      - title: "[AiOS: All-in-One-Stage 3D Wholebody Mesh Recovery](https://ttxskk.github.io/AiOS/)"
+        image: /images/projects/2024_cvpr_aios.gif
+        author:
+          - name: "Qingping Sun"
+            url: "https://github.com/ttxskk"
+          - name: "Yanjun Wang"
+            url: "https://github.com/WYJSJTU"
+          - name: "Ailing Zeng"
+            url: "https://ailingzeng.site/"
+          - name: "Wanqi Yin"
+            url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ"
+          - name: "Chen Wei"
+            url: "https://www.linkedin.com/in/chen-wei-weic0006/"
+          - name: "Wenjia Wang"
+            url: "https://wenjiawang0312.github.io/"
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: "Chi Sing Leung"
+            url: "https://ttxskk.github.io/AiOS/"
+          - name: "Ziwei Liu"
+            url: "https://liuziwei7.github.io/"
+          - name: "Lei Yang"
+            url: "https://yanglei.me/"
+          - name: "Zhongang Cai"
+            url: "https://caizhongang.github.io/"
+        date: "CVPR 2024"
+        github: https://github.com/ttxskk/AiOS
+        arxiv: https://arxiv.org/abs/2303.16160
+        content: |-
+          AiOS performs human localization and SMPL-X estimation in a progressive manner. 
+          It is composed of (1) the body localization stage that predicts coarse human location; 
+          (2) the Body refinement stage that refines body features and produces face and hand locations; 
+          (3) the Whole-body Refinement stage that refines whole-body features and regress SMPL-X parameters.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://ttxskk.github.io/AiOS/"
+
+      - title: "[PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation](https://frozenburning.github.io/projects/primdiffusion/)"
+        image: /images/projects/primdiffusion.gif
+        author:
+          - name: Zhaoxi Chen
+            url: https://frozenburning.github.io/
+          - name: Fangzhou Hong
+            url: https://hongfz16.github.io/
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Guangcong Wang
+            url: https://wanggcong.github.io/
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/FrozenBurning/PrimDiffusion
+        arxiv: https://arxiv.org/abs/2312.04559
+        date: NeurIPS 2023
+        content: |-
+          PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://frozenburning.github.io/projects/primdiffusion/"
+
+      - title: "[SMPLer-X: Advanced 3D Human Body Modeling](https://caizhongang.com/projects/SMPLer-X/)"
+        image: /images/projects/smplerx.gif
+        author:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Wanqi Yin
+            url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=zlIJwBEAAAAJ
+          - name: Ailing Zeng
+            url: https://ailingzeng.site/
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Qingping Sun
+            url: https://github.com/ttxskk
+          - name: Yanjun Wang
+            url: https://github.com/WYJSJTU
+          - name: Hui En Pang
+            url: https://pangyyyyy.github.io
+          - name: <u>**Haiyi Mei**</u>
+            url: 
+          - name: Mingyuan Zhang
+            url: https://mingyuan-zhang.github.io/
+          - name: Lei Zhang
+            url: https://www.leizhang.org/
+          - name: Chen Change Loy
+            url: https://www.mmlab-ntu.com/person/ccloy/
+          - name: Lei Yang
+            url: https://yanglei.me/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/caizhongang/SMPLer-X
+        arxiv: https://arxiv.org/abs/2309.17448
+        date: NeurIPS 2023 <br> (Datasets and Benchmarks Track)
+        content: |-
+          SMPLer-X is the first generalist foundation model for Expressive human pose and shape estimation (EHPS).
+          With big data and large model, SMPLer-X exhibits strong performance across diverse test benchmarks and excellent transferability to even unseen environments.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://caizhongang.com/projects/SMPLer-X/"
+
+      - title: "[SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling](https://synbody.github.io/)"
+        image: /images/projects/SynBody_small.gif
+        author:
+          - name: Zhitao Yang*
+            url: https://github.com/Maoxie
+          - name: Zhongang Cai*
+            url: https://caizhongang.github.io/
+          - name: "<u>**Haiyi Mei***</u>"
+            url:
+          - name: Shuai Liu*
+            url:
+          - name: Zhaoxi Chen*
+            url: https://frozenburning.github.io/
+          - name: Weiye Xiao
+            url: https://www.esukastudio.com/
+          - name: Yukun Wei
+            url:
+          - name: Zhongfei Qing
+            url:
+          - name: Chen Wei
+            url: https://www.linkedin.com/in/chen-wei-weic0006/
+          - name: Bo Dai
+            url: https://daibo.info/
+          - name: Wayne Wu
+            url: https://wywu.github.io/
+          - name: Chen Qian
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN
+          - name: Dahua Lin
+            url: http://dahua.site/
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+          - name: Lei Yang
+            url: http://yanglei.me/
+        github:
+        arxiv: https://arxiv.org/abs/2303.17368
+        date: "ICCV 2023"
+        content: |-
+          SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations.
+          It supports various research topics, including human mesh recovery and novel view synthesis for human (Human NeRF).
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://synbody.github.io/"
+
+      - title: "[Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)"
+        image: /images/projects/zolly.jpg
+        author:
+          - name: Wenjia Wang
+            url: https://wenjiawang0312.github.io/
+          - name: Yongtao Ge
+            url: https://yongtaoge.github.io/
+          - name: "<u>**Haiyi Mei**</u>"
+            url:
+          - name: Zhongang Cai
+            url: https://caizhongang.github.io/
+          - name: Qingping Sun
+            url: 
+          - name: Yanjun Wang
+            url: 
+          - name: Chunhua Shen
+            url: https://cshen.github.io/
+          - name: Lei Yang
+            url: http://yanglei.me/
+          - name: Taku Komura
+            url: https://i.cs.hku.hk/~taku/
+        github: https://github.com/WenjiaWang0312/Zolly
+        arxiv: https://arxiv.org/abs/2303.13796
+        date: "ICCV 2023 (Oral)"
+        content: |-
+          Zolly, the first 3DHMR method focusing on perspective-distorted images, outperforms existing methods on perspective-distorted datasets and the standard benchmark (3DPW).
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://wenjiawang0312.github.io/projects/zolly/"
+      
+      - title: "[SHERF: Generalizable Human NeRF from a Single Image](https://skhu101.github.io/SHERF/)"
+        image: /images/projects/SHERF.png
+        author:
+          - name: Shoukang Hu*
+            url: https://skhu101.github.io/
+          - name: Fangzhou Hong*
+            url: https://hongfz16.github.io/
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/skhu101/SHERF
+        arxiv: https://arxiv.org/abs/2303.12791
+        date: ICCV 2023
+        content: |-
+          Reconstruct human NeRF from a single image in one forward pass!
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://skhu101.github.io/SHERF/"
+
+      - title: "[HumanLiff: Layer-wise 3D Human Generation with Diffusion Model](https://skhu101.github.io/HumanLiff/)"
+        image: /images/projects/HumanLiff_thumbnail.gif
+        author:
+          - name: Shoukang Hu
+            url: https://skhu101.github.io/
+          - name: Fangzhou Hong
+            url: https://hongfz16.github.io/
+          - name: Tao Hu
+            url: https://www.cs.umd.edu/~taohu/
+          - name: Liang Pan
+            url: https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en
+          - name: <u>**Haiyi Mei**</u>
+            url:
+          - name: Weiye Xiao
+            url: https://www.esukastudio.com/
+          - name: Lei Yang
+            url: https://scholar.google.com.hk/citations?user=0fTu6CQAAAAJ
+          - name: Ziwei Liu
+            url: https://liuziwei7.github.io/
+        github: https://github.com/skhu101/HumanLiff
+        arxiv: https://arxiv.org/abs/2308.09712
+        date: Preprint 2023
+        content: |-
+          HumanLiff learns the layer-wise 3D human generative model with a unified diffusion process.
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://skhu101.github.io/HumanLiff/"
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Biomedical/Medical Engineering"
+        school:
+          name: "Shandong University"
+          url: "https://en.sdu.edu.cn/"
+        date: "2019 - 2022"
+        GPA:
+        content: |-
+          I Published:
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN114429436A](https://patents.google.com/patent/CN114429436A).
+
+      - title: "Bachelor of Automation"
+        school:
+          name: "Nanjing University of Science and Technology"
+          url: "https://english.njust.edu.cn/"
+        date: "2015 - 2019"
+        GPA:
+        content: |-
+          I Published:
+          - <i class="fa-regular fa-lightbulb"></i> Patent filed with CNIPA: [CN108453742B](https://patents.google.com/patent/CN108453742B).
+          - <i class="fa-regular fa-file-lines"></i> Mian ZHANG, Ying HUANG, **Haiyi MEI**, Yu GUO. Intelligent interaction method for power distribution robot based on Kinect. Journal of Shandong University(Engineering Science), 2018, 48(5): 103-108.
+          
+
+          Extracurricular Activities
+            - <i class="fa-solid fa-music"></i> Head of the Symphony Orchestra of School, 2016 - 2018.
+            - <i class="fa-solid fa-music"></i> First Place Award, National University Piano Competition, Chinese Golden Bell Award for Music, 2017.
+
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: |-
+      :partying_face: Contact me for any questions or want to collaborate! Always open to new opportunities.
+      
+      <i class="fa-regular fa-envelope"></i> haiyimei [at] gmail.com
+    email: haiyimei@gmail.com
+    btnName: Mail me
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+
+    copyright: ""
+    by: "Haiyi"
+    updateDateFormat: "Jan 02, 2006"
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  # customScripts:
