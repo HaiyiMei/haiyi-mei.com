@@ -167,11 +167,15 @@ params:
       :waving_hand:
       I'm a committed algorithm researcher and backend engineer with 3 years of industry experience.
       Specializing in 3D synthetic data generation for computer vision tasks,
-      I contributed to [9 papers](#publications) in top-tier conferences.
+      I have contributed to [9 papers](#publications) in top-tier conferences.
 
-      Recently, I've been focusing on text/image-to-video generation,
+      I'm well-versed in the text-to-video generation pipeline,
       contributing to VAE training, dataset preparation, automated annotation, and video acquisition using crawler techniques.
-      I'm well-versed in the entire T2V pipeline and passionate about pushing the boundaries of innovation in this field.
+
+      Beyond research, I'm passionate about developing autonomous AI agents,
+      leveraging my backend expertise and cutting-edge LLMs to create intelligent, scalable solutions.
+
+      I thrive on pushing the boundaries of AI systems and automation.
 
       My expertise spans:
       - Engine tools development: Unreal Engine, Blender, etc.
@@ -179,6 +183,7 @@ params:
       - 3D computer vision: Novel view synthesis, generative models on 3D, etc.
       - Text/image-to-video generation: VAE, Diffusion models, dataset preparation (automated annotation, crawler techniques), etc.
       - Backend development: FastAPI, Flask, scalable robust system design, etc.
+      - LLM and autonomous AI agents: LLM integration, prompt engineering, agentic framework, etc.
       - Open-source projects: CI/CD, Docker, Kubernetes, etc.
 
       Languages and tools I'm working with:
@@ -194,6 +199,7 @@ params:
       [![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?logo=Docker&logoColor=white)](https://www.docker.com/)
       [![Flask](https://img.shields.io/badge/Flask-black.svg?logo=Flask&logoColor=white)](https://flask.palletsprojects.com/)
       [![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com/)
+      [![Smolagents](https://img.shields.io/badge/Smolagents-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/docs/smolagents/)
       [![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?logo=Kubernetes&logoColor=white)](https://kubernetes.io)
       [![Git](https://img.shields.io/badge/Git-%23F05033.svg?logo=Git&logoColor=white)](https://git-scm.com/)
       [![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?logo=Linux&logoColor=black)](https://www.linux.org/)
